@@ -1,0 +1,19 @@
+# Ignore build and compiled files
+build/
+contracts/
+artifacts/
+
+# Ignore local development environment files
+.env
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore test coverage reports
+coverage/
